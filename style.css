@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Outfit", sans-serif; */
-  /* font-family: "Playfair Display", serif; */
 }
 
 html {
@@ -12,4 +10,6 @@ html {
 
 body {
   font-size: 1.6rem;
+  /* font-family: "Outfit", sans-serif; */
+  /* font-family: "Playfair Display", serif; */
 }
