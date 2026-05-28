@@ -78,6 +78,10 @@ header .body-header .menu li a:hover {
   text-shadow: 0 0 15px #005583;
 }
 
+header .body-header .submenu .fa-bars {
+  display: none;
+}
+
 /*======================== Welcome ========================*/
 .welcome {
   padding: 100px 0;
@@ -151,6 +155,7 @@ header .body-header .menu li a:hover {
 
 .exploration .exploration-body .item .package {
   padding: 20px;
+  margin: 30px;
   border-radius: 20px;
   transition: all 0.3s linear;
 }
