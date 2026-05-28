@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Vung Tau Tour</title>
     <!-- Font Awesome -->
     <link
@@ -54,7 +56,11 @@
       <!-- Welcome -->
       <section class="welcome">
         <section class="main-content">
-          <section class="welcome-body">
+          <section
+            class="welcome-body"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+          >
             <section class="beach"><p>Khám phá thành phố biển</p></section>
             <h1>
               Chào mừng bạn đến với <br />
@@ -122,5 +128,10 @@
         </section>
       </section>
     </footer>
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
