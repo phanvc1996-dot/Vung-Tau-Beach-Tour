@@ -13,3 +13,105 @@ body {
   /* font-family: "Outfit", sans-serif; */
   /* font-family: "Playfair Display", serif; */
 }
+
+/*==================== Common Features =======================*/
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.main-content {
+  max-width: calc(1170px - 24px);
+  margin: 0 auto;
+}
+
+/*======================== Header =========================*/
+
+header {
+  padding: 30px 24px;
+  background: #fff;
+  position: sticky;
+  top: -10px;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+header .body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .body-header .logo {
+  font-size: 35px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 800;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #0175a8, #99e0ff);
+}
+
+header .body-header .menu {
+  display: flex;
+  align-items: center;
+}
+
+header .body-header .menu li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+header .body-header .menu li:hover a {
+  transform: scale(1.2);
+}
+
+header .body-header .menu li a {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 550;
+  color: #4a5568;
+  transition: 0.5s;
+}
+
+header .body-header .menu li a:hover {
+  color: #005583;
+}
+
+/*======================== Welcome ========================*/
+.welcome {
+  padding: 100px 0;
+  background-image: linear-gradient(20deg, #d1edff 30%, #fff, #b8e1fc 80%);
+}
+
+.welcome .welcome-body .beach {
+  margin: 0 auto 50px;
+  width: 250px;
+  height: 50px;
+  background: #dbedf8;
+  border-radius: 30px;
+  line-height: 50px;
+  border: 1px solid #023e8a;
+}
+
+.welcome .welcome-body .beach p {
+  font-size: 17px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  color: #0077b6;
+}
+
+.welcome .welcome-body h1 {
+  font-size: 60px;
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  color: #023e8a;
+}
+
+.welcome .welcome-body > p {
+  margin-top: 50px;
+  text-align: center;
+  color: #4a5568;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+}
