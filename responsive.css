@@ -1,6 +1,6 @@
 /* Mobile */
 @media (max-width: 46.1875em) {
-  header .body-header nav {
+  header .body-header .menu li a {
     display: none;
   }
 
@@ -18,6 +18,19 @@
     position: absolute;
     right: 8px;
     top: 12px;
+  }
+
+  /* Overlay */
+
+  header .body-header nav .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
   }
 
   .exploration .exploration-body > h1 {
@@ -62,5 +75,14 @@
     background: #3d5765;
     top: 80px;
     left: 50px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

@@ -42,6 +42,53 @@ header .body-header {
   align-items: center;
 }
 
+header .body-header .mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  max-width: 100%;
+  background: #fff;
+  transform: translateX(-100%);
+  transition: all linear 0.2s;
+  opacity: 0;
+}
+
+.mobile-input:checked ~ .overlay {
+  display: block;
+}
+
+.mobile-input:checked ~ .mobile {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+header .body-header .mobile .mobile-list {
+  margin-top: 24px;
+}
+
+header .body-header .mobile .mobile-list li .mobile-link {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px 0;
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+header .body-header .overlay {
+  display: none;
+}
+
+header .body-header .mobile .mobile-close .fa-circle-xmark {
+  font-size: 24px;
+  color: #666;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 header .body-header .logo {
   font-size: 35px;
   font-family: "Playfair Display", sans-serif;
