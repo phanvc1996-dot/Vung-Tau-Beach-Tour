@@ -38,7 +38,7 @@
   }
 
   .exploration .exploration-body > h1::after {
-    left: 160px;
+    left: 43%;
   }
 
   .exploration .exploration-body .item {
@@ -58,8 +58,8 @@
   .exploration .exploration-body .video-container {
     border-radius: 20px;
     overflow: hidden;
-    width: 300px;
-    height: 180px;
+    width: 100%;
+    aspect-ratio: 16/9;
   }
 
   .exploration .exploration-body .video-container video {
